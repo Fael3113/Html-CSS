@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+        @font-face {
+            font-family: 'Old London';
+            src: url('fonts/OldLondon.ttf') format('truetype'); 
+        }    
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas absolutas:
+            cm, mm, in, px, pt, pc
+
+            Medidas relativas:
+            em, ex, rem, vw, bh, %
+            
+            Recomendadas:
+            px, em
+            */
+            font-size: 1em;
+
+            
+        }
+
+        h1{
+            /* 
+            font-family: "Work Sans", sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic; 
+            */
+
+            /*Forma shorthand:
+            font: font-style font-weight font-size font-family;
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2{
+            font: bold 2em 'Roboto', sans-serif;
+        }
+
+        p{
+            font-family: 'Old London';
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias magni tenetur illo esse adipisci dolores maxime quaerat, quia neque consectetur. Ratione odio inventore non repellat veritatis cupiditate dolore. Recusandae, placeat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, omnis suscipit cum doloribus similique labore neque pariatur dicta harum voluptatibus nisi libero, quis consectetur quos fugit atque, aut totam dignissimos.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit a incidunt delectus voluptatibus odio fuga, officiis laboriosam commodi maxime aut necessitatibus, temporibus voluptate quasi deserunt, consequuntur hic repudiandae omnis libero?</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nulla, reiciendis sequi perspiciatis porro ducimus quibusdam ratione blanditiis consequatur veniam culpa molestias optio nobis repellendus amet doloremque nesciunt distinctio dolor.</p>
+</body>
+</html>

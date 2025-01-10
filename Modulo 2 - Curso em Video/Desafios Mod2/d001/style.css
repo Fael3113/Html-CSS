@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family: 'IDROID';
+    src: url(fontes/idroid.otf) format('opentype');
+}
+
+body{
+    background-color: #E8E7C2;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #3AD07D, #1A5C38);
+    padding: 0;
+    color: white;
+}
+
+header h1{
+    margin-top: 0;
+    text-align: center;
+}
+
+header h2{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+header nav{
+    display: flex;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+header nav a{
+    padding: 10px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: #0a301d;
+    background-color: #54a77d;
+    padding: 10px;
+}
+
+main{
+    margin-left: 7%;
+    margin-right: 7%;
+    background-color: white;
+    padding: 10px 20px 20px 20px;
+
+}
+
+main article h1{
+    margin-top: 0;
+    padding-top: 20px;
+    font-family: 'IDROID';
+    font-weight: bold;
+    font-size: 2em;
+    color: #153927;
+}
+
+main article h2{
+    padding-top: 15px 0px 15px 0px;
+    font-family: 'IDROID';
+    color: #153927;
+    font-weight: 400;
+    background-image: linear-gradient(to right,#86E4AE,#F7FFF9);
+}
+
+main article p {
+    text-align: justify;
+    text-indent: 30px;
+}
+
+main article p a{
+    text-decoration: none;
+    color: #153927;
+    background-color: #55eb98a2;
+    font-weight: bold
+}
+
+article picture img{
+    width:83vw;
+    object-fit: cover;
+}
+
+picture#segundo img{
+    width:81.9vw;
+    object-fit: cover;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+aside{
+    background-color: #86E4AE;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+aside h3{
+    margin: 0;
+    background-color: #15af62;
+    color: white;
+    padding: 5px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside ul{
+    list-style-position: inside;
+    columns: 2;
+}
+
+aside a{
+    text-decoration: none;
+    background-color: transparent;
+}
+
+footer{
+    color: white;
+    background-color: #153927;
+    text-align: center;
+}

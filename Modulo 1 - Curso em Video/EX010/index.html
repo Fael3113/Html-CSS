@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Fael-Icone.ico" type="image/x-icon">
+    <title>Imagem Flexível</title>
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+    <p>Tente abrir esse site em vários dispositivos com resoluções diferentes, ou simplesmente altere o tamnho da janela do navegador.</p>
+
+    <picture> <!--Deve ser feito a partir da ordem crescente (max) ou decrescente (min), caso contrário, não funcionará corretamente-->
+        <source media="(max-width: 750px)" srcset="paisagem-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="paisagem-m.png" type="image/png">
+        <img src="paisagem-g.png" alt="Imagem Flexível">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTMLs</p>
+    <audio preload="metadata" autoplay controls loop> 
+        <source src="midia/Lawrence - TrackTribe.mp3" type="audio/mpeg">
+        <source src="midia/Lawrence - TrackTribe.ogg" type="audio/ogg">
+        <source src="midia/Lawrence - TrackTribe.wav" type="audio/wav">
+        <!--Não fiz com .wav pois o arquivo é muito pesado em comparação com os outros-->
+        <p>Infelizmente seu navegador não consegue reproduzir o áudio. <a href="midia/Lawrence - TrackTribe.mp3">Clique aqui para baixar o arquivo</a></p>
+    </audio>
+    <p>Caso queira baixar o arquivo da música. <a href="midia/Lawrence - TrackTribe.mp3">Clique aqui</a></p>
+</body>
+</html>
