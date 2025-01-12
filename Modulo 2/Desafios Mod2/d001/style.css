@@ -26,7 +26,7 @@ header h1{
 }
 
 header h2{
-    margin-bottom: 40px;
+    padding-bottom: 40px;
     text-align: center;
 }
 
@@ -87,21 +87,13 @@ main article p a{
 }
 
 article picture img{
-    width:83vw;
-    object-fit: cover;
-}
-
-picture#segundo img{
-    width:81.9vw;
+    width: 100%;
     object-fit: cover;
 }
 
 .center{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: auto;
     width: 50%;
 }
 
