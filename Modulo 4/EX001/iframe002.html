@@ -12,12 +12,20 @@
             display: block;
             margin: auto;
         }
+        .erro{
+            background-color: lightgreen;
+            color: red;
+        }
     </style>
 </head>
 <body>
     <h1>Teste com iframe</h1>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id voluptates illum tempore natus molestiae, deleniti, corrupti eius libero enim ea ullam veritatis exercitationem assumenda error? Facilis doloribus itaque unde dolorum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam perspiciatis tenetur quas aliquid quasi assumenda temporibus veritatis tempore sed nam libero quidem, facilis laboriosam consequuntur alias reprehenderit perferendis ipsum sapiente.</p>
-    <iframe src="http://127.0.0.1:5500/Modulo%204/EX001/page001.html" frameborder="0" height="500px" width="500px"></iframe>
+
+    <iframe src="paginas-extras/page001.html" frameborder="0" height="500px" width="500px">
+        <p class="erro">Infelizmente seu navegador não é compatível com esse recurso.</p>
+    </iframe>
+
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id voluptates illum tempore natus molestiae, deleniti, corrupti eius libero enim ea ullam veritatis exercitationem assumenda error? Facilis doloribus itaque unde dolorum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam perspiciatis tenetur quas aliquid quasi assumenda temporibus veritatis tempore sed nam libero quidem, facilis laboriosam consequuntur alias reprehenderit perferendis ipsum sapiente.</p>
 </body>
 </html>
