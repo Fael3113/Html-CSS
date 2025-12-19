@@ -10,11 +10,11 @@
 <body>
     <header>
         <nav id="menu"><ul>
-            <li><a href="#"><img src="menu/house-solid-full.svg" alt="" width="24"></a></li>
-            <li><a href="#"><img src="menu/brain-solid-full.svg" alt="" width="24"></a></li>
-            <li><a href="#"><img src="menu/graduation-cap-solid-full.svg" alt="" width="24"></a></li>
-            <li><a href="#"><img src="menu/trowel-bricks-solid-full.svg" alt="" width="24"></a></li>
-            <li><a href="#"><img src="menu/moon-regular-full.svg" alt="" width="24"></a></li>
+            <li><a href="#video" class="link"><img src="menu/house-solid-full.svg" alt="" width="24"></a></li>
+            <li><a href="#skills" class="link"><img src="menu/brain-solid-full.svg" alt="" width="24"></a></li>
+            <li><a href="#formacao" class="link"><img src="menu/graduation-cap-solid-full.svg" alt="" width="24"></a></li>
+            <li><a href="#projetos" class="link"><img src="menu/trowel-bricks-solid-full.svg" alt="" width="24"></a></li>
+            <li><a href="#" class="link" id="botao-tema"><img src="menu/moon-regular-full.svg" alt="" width="24"></a></li>
         </ul></nav>
     </header>
     <main>
@@ -36,7 +36,7 @@
         </section>
 
         <section id="detalhes">
-            <article class="video">
+            <article id="video">
                 <h2><img src="social/handshake-solid-full.svg" alt="" width="30">Deixe-me apresentar</h2>
                 <div class="video-container">
                     <iframe 
@@ -228,11 +228,51 @@
 
             <article id="projetos">
                 <h2><img src="menu/trowel-bricks-solid-full.svg" alt="" width="30">Projetos</h2>
+                <div id="projeto-container">
+                    <div class="projeto"> <!--Projeto 01-->
+                        <img src="imagens/projeto-01-videos.jpg" alt="Projeto 1" class="foto">
+                        <div class="projeto-info">
+                            <p class="periodo">2022</p>
+                            <h3 class="titulo">Projeto de Vídeos</h3>
+                            <p>Projeto construído para treinar a inserção de vídeos em nosso site</p>
+                            <details class="descricao">
+                                <summary>Saiba mais...</summary>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo vitae dolor aperiam sunt! Nostrum tempore iusto, accusantium possimus nulla voluptatem nobis eveniet vel tenetur alias itaque, maxime quia inventore velit!</p>
+                            </details>
+                        </div>
+                    </div>
+
+                    <div class="projeto"> <!--Projeto 02-->
+                        <img src="imagens/projeto-02-cordel.jpg" alt="Projeto 2" class="foto">
+                        <div class="projeto-info">
+                            <p class="periodo">2023</p>
+                            <h3 class="titulo">Projeto Cordel</h3>
+                            <p>Projeto para treinar efeito paralax em imagens</p>
+                            <details class="descricao">
+                                <summary>Saiba mais...</summary>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo vitae dolor aperiam sunt! Nostrum tempore iusto, accusantium possimus nulla voluptatem nobis eveniet vel tenetur alias itaque, maxime quia inventore velit!</p>
+                            </details>
+                        </div>
+                    </div>
+
+                    <div class="projeto"> <!--Projeto 03-->
+                        <img src="imagens/projeto-03-android.jpg" alt="Projeto 3" class="foto">
+                        <div class="projeto-info">
+                            <p class="periodo">2023</p>
+                            <h3 class="titulo">Projeto Android</h3>
+                            <p>Projeto para treinar conteúdos e imagens dinâmicas</p>
+                            <details class="descricao">
+                                <summary>Saiba mais...</summary>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo vitae dolor aperiam sunt! Nostrum tempore iusto, accusantium possimus nulla voluptatem nobis eveniet vel tenetur alias itaque, maxime quia inventore velit!</p>
+                            </details>
+                        </div>
+                    </div>
+                </div>
             </article><!--Fim do projetos-->
         </section>
     </main>
     <footer>
-
+        Portfólio desenvolvido por <a href="https://www.cursoemvideo.com" target="_blank" rel="nofollow">Curso em Vídeo</a> em 2025
     </footer>
     <script src="scripts/script.js"></script>
 </body>
